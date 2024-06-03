@@ -3,7 +3,7 @@ import Login from "../Login/Login";
 import DashboardLayout from "../Dashboard/DashboardLayout";
 import AddSkill from "../Dashboard/AddSkill";
 import AddProject from "../Dashboard/AddProject";
-import FullPageScroll from "../Dashboard/AddBlog";
+import AddBlog from "../Dashboard/AddBlog";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
       },
       {
         path: "add-blog",
-        element: <FullPageScroll></FullPageScroll>,
+        element: <AddBlog></AddBlog>,
       },
     ],
   },
