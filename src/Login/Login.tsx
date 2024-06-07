@@ -29,7 +29,7 @@ const Login = () => {
           token: "token will come",
         })
       );
-      navigate("/dashboard");
+      navigate("/dashboard/add-project");
     }
   };
   return (
